@@ -11,8 +11,8 @@ export default function App() {
       <div>
         <input type="button" value="AC" onClick={() => setValue('')} />
         <input type="button" value="DE" onClick={() => setValue(value.slice(0, -1))} />
-        <input type="button" value="." />
-        <input type="button" value="/" />
+        <input type="button" value="." onClick={handleClick} />
+        <input type="button" value="/" onClick={handleClick} />
       </div>
       <div>
         <input type="button" value="7" onClick={handleClick} />
